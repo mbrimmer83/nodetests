@@ -4,7 +4,7 @@ function* consumer(){
       var val = yield null;
       console.log('Got value', val);
     }catch(e){
-      console.log('You threw an error but I caught it ;P')
+      console.log('You threw an error but I caught it ;P');
     }
   }
 }
